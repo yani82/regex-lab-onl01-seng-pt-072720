@@ -7,7 +7,7 @@ if word.match(/^[aeiouAEIOU]+\w/) then
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-(/[^un][$ing]
+if text.(/[^un][$ing])
 end
 
 def words_five_letters_long(text)
