@@ -23,7 +23,7 @@ end
 end
 
 def valid_phone_number?(phone)
-if phone(//) then
+if phone.match(//) then
   return true 
 else 
   return false
