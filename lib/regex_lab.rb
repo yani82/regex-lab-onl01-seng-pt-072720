@@ -23,5 +23,9 @@ end
 end
 
 def valid_phone_number?(phone)
-phone(//)
+if phone(//) then
+  return true 
+else 
+  return false
+end 
 end
